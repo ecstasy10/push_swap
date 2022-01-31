@@ -1,0 +1,7 @@
+.idea/
+obj/
+ARG*
+checker_mac
+*.a
+*.o
+push_swap
