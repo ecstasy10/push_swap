@@ -6,7 +6,7 @@ FLAGS =				-Wall -Werror -Wextra
 
 # TODO - FIX RELINK
 # CUIDADO CON EL RELINK
-COMP =				gcc -I includes -I libft/includes -I libft/libft -c -o
+COMP =				gcc $(FLAGS) -I includes -I libft/includes -I libft/libft -c -o
 
 OBJ_DIR =			obj/
 SRC_DIR =			src/
@@ -21,7 +21,9 @@ SRC =				push_swap.c \
 					small_sort.c \
 					manage_limits.c \
 					manage_moves.c \
-					medium_sort.c
+					medium_sort.c \
+					large_sort.c \
+					manage_quarters.c
 
 TOOLS =				free_frame.c \
 					parse.c \

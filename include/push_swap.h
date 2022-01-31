@@ -83,8 +83,11 @@ void	    set_biggest_smallest(t_frame *frame, t_stack *stack);
 void	    set_smallest_number(t_frame *frame, t_stack *stack);
 void	    set_middle(t_frame *frame, t_stack *stack);
 void		medium_sort(t_frame *frame);
+void	    push_big_small(t_frame *frame, t_stack *stack, t_stack *stack_end);
 void	    initialize_moves(t_frame *frame);
 void		calculate_moves(t_frame *frame, t_stack	*stack);
+void		large_sort(t_frame *frame);
+void		push_quarters(t_frame *frame, t_stack *stack_a, int split);
 
 /*
  * Sort

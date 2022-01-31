@@ -24,7 +24,7 @@ static void	rotate_and_push_to_a(t_frame *frame)
     initialize_moves(frame);
 }
 
-static void	push_big_small(t_frame *frame, t_stack *stack, t_stack *stack_end)
+void	push_big_small(t_frame *frame, t_stack *stack, t_stack *stack_end)
 {
     while (1)
     {

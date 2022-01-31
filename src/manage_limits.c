@@ -4,7 +4,7 @@
 
 #include "../include/push_swap.h"
 
-void	    set_middle(t_frame *frame, t_stack *stack)
+void    set_middle(t_frame *frame, t_stack *stack)
 {
     long	*array;
     int		i;
